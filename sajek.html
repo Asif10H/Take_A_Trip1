@@ -1,0 +1,255 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sajek</title>
+    <style>
+      .header {
+        overflow: hidden;
+        background-color: #baf8f2;
+        padding: 25px 0px 30px;
+        box-shadow: 0 4px 8px 0 #073d38
+      }
+      .header-right {
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        padding-top: 10px;
+        padding-right: 100px;
+      }
+      .header-right a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 13px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 16px;
+        /*border-radius: 16px;*/
+        margin-left: 8px;
+        /*border: 1px solid lightcyan;*/
+      }
+      .header-right a:hover {
+        color: #1ec6b6;
+        /* transition-duration: .7s;*/
+        /*border: 1px solid darkcyan;*/
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .header-right a.active {
+        background-color: transparent;
+        color: 1ec6b6;
+      }
+      .logoh {
+        float: left;
+        color: #1ec6b6;
+        /*text-align: center;*/
+        padding-left: 80px;
+        padding-top: 30px;
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 0px;
+      }
+
+      .logoh:hover {
+        color: #1ec6b6;
+        text-decoration: none;
+      }
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: "Pacifico";
+      }
+      .logo {
+        margin-left: 43%;
+        display: flex;
+        padding: 7px;
+      }
+      .footer-text {
+        display: flex;
+      }
+      .footer-text1 {
+        color: white;
+        font-family: "PT Sans";
+        padding: 5px;
+        position: relative;
+        left: 75%;
+      }
+      .footer-text2 {
+        margin-left: 10px;
+        color: white;
+        font-family: "PT Sans";
+        padding: 5px;
+        position: relative;
+        left: -23%;
+      }
+      .copyright {
+        text-align: center;
+        font-family: "Pacifico";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a class="logoh">Take A Trip</a>
+      <div class="header-right">
+        <a onclick="myFunction2()">Home</a>
+        <script>
+          function myFunction2() {
+            window.location = "index.html";
+          }
+        </script>
+        <a href="#special packages">Special Packages</a>
+        <a href="#Travel Destination">Travel Destination</a>
+        <a href="#contact us">Contact Us</a>
+        <a href="#photo galary">Photo Galary</a>
+        <a href="Our policy">Our Policy</a>
+        <a href="about us">About Us</a>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- picture section -->
+    <div class="picture-section">
+      <h1 class="heading-section">Sajek</h1>
+      <span class="img-container">
+        <img src="sajek.jpg" alt="" />
+      </span>
+    </div>
+    <div class="picture-des">
+      <p>
+        <span id="si_z">S</span>ajek valley: Sajek is a union at Baghaichari
+        Upazila in Rangamati districts. Basically it is name of a river which
+        separates Bangladesh from India. The river flows into the Karnafuli
+        River in the Chittagong Hill Tracts. Sajek Valley is situated in the
+        North angle of Rangamati, near the Mizoram border boundary area. The
+        valley is 1,800 ft high form sea lavel. Many small rivers flow through
+        the hills among them Kachalon and Machalong are famous. The main ethnic
+        minorities on the valley are Chakma, Marma, Tripura, Pankua, Lushai and
+        Sagma. The place is known as hill queen for its natural beauty and roof
+        of Rangamati. Marishsha is a name of a place near Sajek Valley. Most of
+        the houses are made with bamboo. There is another place near Sajek, it
+        is Kanlak, and it is famous for its orange orchard. Most attractions of
+        the spot are sun set, rain, morning, evening, and night and aborigin
+        people. Tourists can buy indigenous peoples' products from haat
+        (markets). Roads are like big snake spirals on the mountains. Most of
+        the people are Buddhist and others are Christian here. A new road has
+        been built up to the Ruilui Para by the guidance of Bangladesh army. On
+        the way traveler need to take permission from the army camp. Bangladesh
+        Army is very helpful and cooperative. Now mobile network is available
+        here. The valley is in Rangamati but tourists can reach there from
+        Khagrachhari. The route is Khagrachhori – Dighinala Bazaar – Bagaihat
+        Bazaar – Machalong Haat – then Sajek. It is 62 km from Khagrachhari.
+        Dighinala to Sajek is 40 km.
+      </p>
+    </div>
+    <!-- Package section -->
+
+    <section class="package-section">
+      <h2 class="project-heading">Our Packages</h2>
+      <div class="box single-box">
+        <img src="images/5.jpg" alt="5 star hotel name" />
+        <h2 class="hotel-name">Super Deluxe Package</h2>
+        <p class="project-disc">
+          Stay in a deluxe cottage<br />
+          Duration:2 days and 2 nights<br />
+          All Travel Cost are included<br />
+          Lunch,Dinner & Breakfast of everyday included<br />
+          A local guide<br />
+          Cost:Only TK.5500 per person <br />
+        </p>
+      </div>
+      <div class="box single-box">
+        <img src="images/4.jpg" alt="4 star hotel name" />
+        <h2 class="hotel-name">Deluxe Package</h2>
+        <p class="project-disc">
+          Stay in a standard cottage<br />
+          Duration:2 days and 2 nights<br />
+          All Travel Cost are included<br />
+          Lunch,Dinner & Breakfast of everyday included<br />
+          A local guide<br />
+          Cost:Only TK.4500 per person <br />
+        </p>
+      </div>
+      <div class="box single-box">
+        <img src="images/3.jpg" alt="3 star hotel name" />
+        <h2 class="hotel-name">Standard Package</h2>
+        <p class="project-disc">
+          Stay in a 3 star hotel<br />
+          Duration:2 days and 2 nights<br />
+          All Travel Cost are included<br />
+          Lunch,Dinner & Breakfast of everyday included<br />
+          A local guide<br />
+          Cost:Only TK.3500 per person <br />
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <button class="click-me"><a onclick="myFunction3()">Reserve Now</a></button>
+        <script>
+          function myFunction3() {
+            window.location = "http://localhost/Form_creation/myform.php";
+          }
+        </script>
+      </div>
+      <div class="note">
+        <p>[NB: ***For reservation pay 1500 BDT advance in our Bkash number and give the TRXid in the reservation form with the Bkash number***]</p>
+      </div>
+    </section>
+
+    <!-- footer start -->
+    <div class="footer">
+      <h1 style="text-align: center; color: white">Follow Us</h1>
+      <div class="logo">
+        <a href="www.facebook.com"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/facebook.png"
+            alt="facebook"
+        /></a>
+        <a href="#whatsapp"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/whatsapp.png"
+            alt="facebook"
+        /></a>
+        <a href="#instagram"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/instagram.png"
+            alt="facebook"
+        /></a>
+        <a href="#twitter"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/twitter.png"
+            alt="facebook"
+        /></a>
+      </div>
+      <br />
+      <div class="footer-text">
+        <div class="footer-text1">
+          <h3>Contact Us</h3>
+          <pre>
+Office Address:4th Floor,Nurmahal Complex.
+                 Dewanhat Chittagong.</pre
+          >
+          <p>Mail: <a href="#trip">takeatrip@gmail.com</a></p>
+          <p>Fax: 0093111</p>
+          <p>Mobile No: 01301002214</p>
+        </div>
+        <div class="footer-text2">
+          <h3>About Us</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id
+            debitis quidem
+          </p>
+        </div>
+      </div>
+
+      <div class="Copyright">
+        <p style="text-align: center">Copyright &copy; 2020 Ahmad Fahim & Habibullah Asif</p>
+      </div>
+    </div>
+  </body>
+</html>

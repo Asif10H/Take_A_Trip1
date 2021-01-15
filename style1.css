@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #baf8f2;
+    padding: 25px 0px 30px;
+    box-shadow: 0 4px 8px 0 #1EC6B6;
+    margin-bottom: 2px;
+  }
+  .header-right {
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+    padding-top: 10px;
+    padding-right: 100px;
+  }
+  .header-right a  {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    /*border-radius: 16px;*/
+    margin-left: 8px;
+    /*border: 1px solid lightcyan;*/
+  }
+  .header-right a:hover {
+    color: #1EC6B6;
+   /* transition-duration: .7s;*/
+    /*border: 1px solid darkcyan;*/
+    text-decoration: none;
+  }
+  
+  .header-right a.active {
+    background-color:transparent;
+    color: 1EC6B6;
+    
+  }
+  .logoh{
+    float: left;
+    color:#1EC6B6;
+    /*text-align: center;*/
+    padding-left: 80px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 0px;
+  }
+
+  .logoh:hover{
+    color: #1EC6B6;
+    text-decoration: none;
+  }
+
+
+
+.bhome{
+    max-width: 1500px;
+    height: 550px;
+    background-image: url("images/manikpur.JPG");
+    background-repeat: no-repeat;
+    background-size: 1500px 550px;
+    
+}
+.bhome h1 {
+    text-align: center;
+    padding-top: 150px;
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 80px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: .5;
+    color: #fff;
+    margin-bottom: 0;
+}
+.bhome p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.bhome h2{
+    padding: 20px;;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    /*padding: -400px;*/
+    color: rgb(0, 255, 255);
+
+}
+.bhome .b1{
+    background-color: #1EC6B6;
+    border-color: #1EC6B6;
+    margin-left: 45%;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 41px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    text-align: center;
+}
+.bhome button:hover{
+    background-color: orangered;
+    text-transform: capitalize;
+    color: black;
+}
+
+.bhome .b2{
+    background-color:white;
+    border-color:white;
+    padding: 9px;
+    position: relative;
+    right: 50px;
+    top: 20px;
+    width: 80px;
+}
+.bnav{
+    list-style-type: none;
+    float: right;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+   /* display: flex;
+    position: relative;
+    top: -20px;*/
+    background-color: blanchedalmond;
+    width: 1500px;
+   
+}
+li{
+    float: left;
+}
+.bnav #nhome{
+   /* max-width: 1500px;
+    font-size: 20px;
+    padding: 4px 20px 5px 10px;
+    display: flex;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    left: 10px;
+    top: 10px;  */
+    margin-left: 20px;
+    display: inline-block;
+    padding: 14px 18px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Nothing You Could Do", cursive;
+}
+/*.bnav a{
+    text-decoration: none;
+    color: White;
+}*/
+.bnav a:hover{
+   /* text-decoration: underline;
+    color: yellowgreen;
+    text-decoration-color: yellow;*/
+    background-color: white;
+}
+.search-bar{
+    padding: 10px;
+    /*position: relative;*/
+    margin-left: 22%;
+    margin-top: 70px;
+    display: flex;
+}
+
+.caption{
+    color: white;
+    margin-top: -50px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  img{
+    transition: transform 1s;
+  }
+  .caption:hover{
+    color: #1EC6B6;
+    margin-top: -50px;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  .container img:hover{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 2);
+    transform: rotate(5deg);
+    opacity: 90%;
+    color: #1EC6B6;   
+  } 
+
+ 
+
+.services p{
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.services-grid-container{
+    max-width: 1500px;
+    display: grid;
+    grid-column-gap: 60px;
+    grid-template-columns: 350px 350px 350px;
+    margin-top: 100px;
+    margin-left: 320px;
+}
+.services-grid-container p{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    margin-left: -270px;
+    padding: 40px;
+}
+.services-grid-container pre{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-top: -50px;
+    margin-left: -270px;
+    padding: 40px;
+}
+.recent-trips p{
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 0px;
+    padding: 20px;
+}
+.recent-trips-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    padding-left: 140px;
+}
+.recent-trip-container{
+    flex: 1;
+    flex-basis: 10%;
+   /* box-shadow: 0px 0px 5px 0px black;*/
+}
+.recent-trip-container .img-container{
+    position: center;
+    height: 250px;
+    width: 350px;
+    border: 1px black;
+    border-radius: 5px;
+}
+.recent-trips-flex-container .text-container p{
+    text-align: start;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.space{
+    position:relative;
+    left: 10px;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Pacifico' ;
+  }
+  .logo{
+    margin-left: 43%;
+    display: flex;
+    padding: 7px;
+   
+  }
+  .footer-text{
+    display: flex;
+  }
+  .footer-text1{
+    color: white;
+    font-family: 'PT Sans' ;
+    padding: 5px;
+    position: relative;
+    left: 75%;
+  }
+  .footer-text2{
+      margin-left: 10px;
+    color: white;
+    font-family: 'PT Sans' ;
+    padding: 5px;
+    position: relative;
+    left: -23%;
+  }
+  .copyright{
+    text-align: center;
+    font-family: 'Pacifico' ;
+  }
+  

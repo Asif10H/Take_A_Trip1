@@ -1,0 +1,257 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sajek</title>
+    <style>
+      .header {
+        overflow: hidden;
+        background-color: #baf8f2;
+        padding: 25px 0px 30px;
+        box-shadow: 0 4px 8px 0 #073d38;
+      }
+      .header-right {
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        padding-top: 10px;
+        padding-right: 100px;
+      }
+      .header-right a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 13px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 16px;
+        /*border-radius: 16px;*/
+        margin-left: 8px;
+        /*border: 1px solid lightcyan;*/
+      }
+      .header-right a:hover {
+        color: #1ec6b6;
+        /* transition-duration: .7s;*/
+        /*border: 1px solid darkcyan;*/
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .header-right a.active {
+        background-color: transparent;
+        color: 1ec6b6;
+      }
+      .logoh {
+        float: left;
+        color: #1ec6b6;
+        /*text-align: center;*/
+        padding-left: 80px;
+        padding-top: 30px;
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 0px;
+      }
+
+      .logoh:hover {
+        color: #1ec6b6;
+        text-decoration: none;
+      }
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: "Pacifico";
+      }
+      .logo {
+        margin-left: 43%;
+        display: flex;
+        padding: 7px;
+      }
+      .footer-text {
+        display: flex;
+      }
+      .footer-text1 {
+        color: white;
+        font-family: "PT Sans";
+        padding: 5px;
+        position: relative;
+        left: 75%;
+      }
+      .footer-text2 {
+        margin-left: 10px;
+        color: white;
+        font-family: "PT Sans";
+        padding: 5px;
+        position: relative;
+        left: -23%;
+      }
+      .copyright {
+        text-align: center;
+        font-family: "Pacifico";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a class="logoh">Take A Trip</a>
+      <div class="header-right">
+        <a onclick="myFunction2()">Home</a>
+        <script>
+          function myFunction2() {
+            window.location = "index.html";
+          }
+        </script>
+        <a href="#special packages">Special Packages</a>
+        <a href="#Travel Destination">Travel Destination</a>
+        <a href="#contact us">Contact Us</a>
+        <a href="#photo galary">Photo Galary</a>
+        <a href="Our policy">Our Policy</a>
+        <a href="about us">About Us</a>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- picture section -->
+    <div class="picture-section">
+      <h1 class="heading-section">Sunamganj</h1>
+      <span class="img-container">
+        <img src="sunamganj.JPG" alt="" />
+      </span>
+    </div>
+    <div class="picture-des">
+      <p>
+        <span id="si_z">T</span>here are 17 tourist attractions found in
+        Sunamganj. This is 26% of all tourist attractions listed in Sylhet
+        Division. The major types of tourist attractions listed here are nature
+        attractions and landmarks. Then there is also museums listed in
+        Sunamganj. You may find a list of all categories of Sunamganj
+        attractions on this page. Click on a category to find all attractions of
+        Sunamganj of that type. Located in the foothills of Khasia Jainta
+        Mountain, Sunamganj is a border district located in the northeastern
+        region of Bangladesh within Sylhet division. Geographic Location: The
+        Meghalaya state of India on the north, Habiganj district on the south,
+        Sylhet district on the east and Netrokona district on the west. It is
+        known that Sunamganj was named after the name of 'Sunamuddin', a Mughal
+        commander. He was given some land of this area as an award for his
+        heroic achievement in a war. He established a market in this region and
+        gradually the area got the name Sunamganj (market of Sunam). Sunamganj
+        subdivision was established in 1877 under Sylhet district. In 1984 it
+        was transformed into a district. Sunamganj is a marvel of natural beauty
+        with hills, rivers, wetlands, trees, and biodiversity. The presence of
+        different tribal groups like Khasias made this region a unique district
+        in the cultural heritage of Bangladesh. In addition to its folklore and
+        poetry, this region has different languages and customs practice.
+        Various festivals are celebrated as a part of the cultural activities of
+        this region. There are many monuments, old palaces as well as vast
+        swamps and rivers with exceptional natural beauty in this district. All
+        these are great attractions for the tourists.
+      </p>
+    </div>
+    <!-- Package section -->
+
+    <section class="package-section">
+      <h2 class="project-heading">Our Packages</h2>
+      <div class="box single-box">
+        <img src="images/5.jpg" alt="5 star hotel name" />
+        <h2 class="hotel-name">Super Deluxe Package</h2>
+        <p class="project-disc">
+          Stay in a deluxe boat<br />
+          Duration:2 days and 1 night<br />
+          All Travel Cost are included<br />
+          Lunch,Dinner & Breakfast of everyday included<br />
+          A local guide<br />
+          Cost:Only TK.6500 per person <br />
+        </p>
+      </div>
+      <div class="box single-box">
+        <img src="images/4.jpg" alt="4 star hotel name" />
+        <h2 class="hotel-name">Deluxe Package</h2>
+        <p class="project-disc">
+          Stay in a standard boat<br />
+          Duration:2 days and 1 night<br />
+          All Travel Cost are included<br />
+          Lunch,Dinner & Breakfast of everyday included<br />
+          A local guide<br />
+          Cost:Only TK.5000 per person <br />
+        </p>
+      </div>
+      <div class="box single-box">
+        <img src="images/3.jpg" alt="3 star hotel name" />
+        <h2 class="hotel-name">Standard Package</h2>
+        <p class="project-disc">
+          Stay in a hotel<br />
+          Duration:2 days and 1 night<br />
+          All Travel Cost are included<br />
+          Lunch,Dinner & Breakfast of everyday included<br />
+          A local guide<br />
+          Cost:Only TK.3000 per person <br />
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <button class="click-me"><a onclick="myFunction3()">Reserve Now</a></button>
+        <script>
+          function myFunction3() {
+            window.location = "http://localhost/Form_creation/myform.php";
+          }
+        </script>
+      </div>
+      <div class="note">
+        <p>[NB: ***For reservation pay 1500 BDT advance in our Bkash number and give the TRXid in the reservation form with the Bkash number***]</p>
+      </div>
+    </section>
+
+    <!-- footer start -->
+    <div class="footer">
+      <h1 style="text-align: center; color: white">Follow Us</h1>
+      <div class="logo">
+        <a href="www.facebook.com"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/facebook.png"
+            alt="facebook"
+        /></a>
+        <a href="#whatsapp"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/whatsapp.png"
+            alt="facebook"
+        /></a>
+        <a href="#instagram"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/instagram.png"
+            alt="facebook"
+        /></a>
+        <a href="#twitter"
+          ><img
+            style="height: 40px; width: 40px; padding: 5px"
+            src="images/twitter.png"
+            alt="facebook"
+        /></a>
+      </div>
+      <br />
+      <div class="footer-text">
+        <div class="footer-text1">
+          <h3>Contact Us</h3>
+          <pre>
+Office Address:4th Floor,Nurmahal Complex.
+                 Dewanhat Chittagong.</pre
+          >
+          <p>Mail: <a href="#trip">takeatrip@gmail.com</a></p>
+          <p>Fax: 0093111</p>
+          <p>Mobile No: 01301002214</p>
+        </div>
+        <div class="footer-text2">
+          <h3>About Us</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id
+            debitis quidem
+          </p>
+        </div>
+      </div>
+
+      <div class="Copyright">
+        <p style="text-align: center">Copyright &copy; 2020 Ahmad Fahim & Habibullah Asif</p>
+      </div>
+    </div>
+  </body>
+</html>

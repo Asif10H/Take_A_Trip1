@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.adj-header{
+  border: 12px;
+  border-color: black;
+  color: #1ec6b6;
+}
+.header {
+        overflow: hidden;
+        background-color: #baf8f2;
+        padding: 20px 0px ;
+        box-shadow: 0 4px 8px 0 #1ec6b6;
+        margin-bottom: 120px;
+      }
+      .header-right {
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        padding-top: 10px;
+        padding-right: 100px;
+      }
+      .header-right a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 13px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 16px;
+        /*border-radius: 16px;*/
+        margin-left: 8px;
+        /*border: 1px solid lightcyan;*/
+      }
+      .header-right a:hover {
+        color: #1ec6b6;
+        /* transition-duration: .7s;*/
+        /*border: 1px solid darkcyan;*/
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .header-right a.active {
+        background-color: transparent;
+        color: 1ec6b6;
+      }
+      .logoh {
+        float: left;
+        color: #1ec6b6;
+        /*text-align: center;*/
+        padding-left: 80px;
+        padding-top: 30px;
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 0px;
+      }
+
+      .logoh:hover {
+        color: #1ec6b6;
+        text-decoration: none;
+      }
+.adjustment{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.register{
+    background-color: #52f1e2;
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 35%;
+    text-align: center;
+}
+.input-style{
+    margin-right: 260px;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid black;
+}
+.text{
+    text-align: initial;
+}
+.signup-button{
+    width: 328px;
+    height: 40px;
+    background-color: #f57228;
+    font-family: 'Pacifico' ;
+    font-size: medium;
+    text-align: center;
+    box-shadow: orangered;
+    border-radius: 4px;
+    color: black;
+}
+.signup-button:hover{
+  background-color: orangered;
+    text-transform: capitalize;
+    padding:  5px 5px 5px;
+    color: #fff;
+}
+.text1{
+    opacity: 0.6;
+}
+.third-party-signup{
+    display: flex;
+    padding: 5px 20px 20px 20px;
+}
+.fb-button{
+    margin-right: 5px;
+    background-color: #3b5998;
+    text-align: center;
+    color: white;
+    width: 228px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.google-button{
+    background-color: #d34836;
+    text-align: center;
+    color: white;
+    width: 228px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+/*.copyright{
+    text-align: center;
+    font-family: 'Pacifico' ;*/
+}
+
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-family: "Pacifico";
+      }
+      .logo {
+        margin-left: 43%;
+        display: flex;
+        padding: 7px;
+      }
+      .footer-text {
+        display: flex;
+      }
+      .footer-text1 {
+        color: white;
+        font-family: "PT Sans";
+        padding: 5px;
+        position: relative;
+        left: 75%;
+      }
+      .footer-text2 {
+        margin-left: 10px;
+        color: white;
+        font-family: "PT Sans";
+        padding: 5px;
+        position: relative;
+        left: -23%;
+      }
+      .copyright {
+        text-align: center;
+        font-family: "Pacifico";
+      }
+      .color-name{
+        background-color: black;
+    }
